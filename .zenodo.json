@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "creators": [
+      {
+        "name": "Gaddamanugu, Hansika",
+        "orcid": "0000-0000-0000-0000"
+      }
+    ],
+    "title": "Title of project",
+    "description": "Description of project",
+    "access_right": "open",
+    "license": "MIT",
+    "keywords": [],
+    "related_identifiers": [
+      {
+        "scheme": "doi",
+        "identifier": "https://doi.org/10.0000/00000",
+        "relation": "cites"
+      }
+    ],
+    "upload_type": "software"
+  },
+  "upload_date": "2023-12-06"
+}
