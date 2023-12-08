@@ -3,22 +3,23 @@
     "creators": [
       {
         "name": "Gaddamanugu, Hansika",
-        "orcid": "0000-0000-0000-0000"
+        "orcid": "0009-0006-9547-7531"
       }
     ],
-    "title": "Title of project",
-    "description": "Description of project",
+    "title": "IS 477 Final Project: Analyzing Wine",
+    "description": "In this project, I analyzed the Wine Data Set from the UCI Machine Learning Repository to analyze and visualize the chemical composition of different types of wines.",
+",
     "access_right": "open",
     "license": "MIT",
     "keywords": [],
     "related_identifiers": [
       {
         "scheme": "doi",
-        "identifier": "https://doi.org/10.0000/00000",
+        "identifier": "https://doi.org/10.24432/C5PC7J",
         "relation": "cites"
       }
     ],
     "upload_type": "software"
   },
-  "upload_date": "2023-12-06"
+  "upload_date": "2023-12-08"
 }
