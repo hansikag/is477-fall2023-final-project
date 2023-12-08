@@ -1,25 +1,21 @@
 rule prepare:
-    input:
-        script="./scripts/prepare_data.py"
     output:
-        "./data/dataset.zip"
-    run:
-        shell("python {input.script}")
+        "data/wine.data"
+    shell:
+        "python scripts/prepare_data.py"
 
 rule profile:
     input:
-        script="./scripts/profile.py",
-        dataset="data/wine.data"
+        "data/wine.data"
     output:
-        "./profiling/report.html"
-    run:
-        shell("python {input.script}")
+        "profiling/report.html"
+    shell:
+        "python scripts/profile.py"
 
 rule analyze:
-    input:
-        script="./scripts/analysis.py",
-        dataset="./data/wine.data"
+    input: 
+        "data/wine.data"
     output:
-        "./results/"
-    run:
-        shell("python {input.script}")
+        "results/"
+    shell:
+        "python scripts/analysis.py"
